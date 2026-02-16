@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  google-analytics-mcp:
+    build: .
+    container_name: google-analytics-mcp
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/credentials/credentials.json
+      - GOOGLE_PROJECT_ID=${GOOGLE_PROJECT_ID}
+    volumes:
+      # Monta tu archivo de credenciales de Google Cloud
+      - ${CREDENTIALS_PATH:-./credentials.json}:/credentials/credentials.json:ro
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

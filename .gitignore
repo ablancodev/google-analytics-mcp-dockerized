@@ -1,0 +1,13 @@
+# Credenciales de Google Cloud
+credentials.json
+*.json
+!.env.example
+
+# Variables de entorno
+.env
+
+# Docker
+docker-compose.override.yml
+
+# Archivos del sistema
+.DS_Store
