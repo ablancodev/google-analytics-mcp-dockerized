@@ -2,6 +2,12 @@
 
 Servidor MCP (Model Context Protocol) para Google Analytics dockerizado, basado en el [repositorio oficial](https://github.com/googleanalytics/google-analytics-mcp).
 
+## Video Tutorial
+
+[![Tutorial paso a paso](https://img.youtube.com/vi/TVmbSGdPlss/maxresdefault.jpg)](https://youtu.be/TVmbSGdPlss)
+
+Mira este video para una guía completa del proceso de instalación y configuración paso a paso.
+
 ## Requisitos Previos
 
 ### 1. Habilitar APIs en Google Cloud
